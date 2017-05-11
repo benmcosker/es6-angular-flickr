@@ -1,0 +1,19 @@
+<section layout="column" layout-align="center center" layout-fill>
+    <div layout="row" layout-margin flex>
+        <img ng-src="{{loadedImage}}" flex height="200" ng-click="showModal()" ng-show="loadedImage">
+        <div layout="row" class="error-box" layout-margin flex md-colors="{color:'accent'}" ng-show="!loadedImage">
+            <div layout="column" layout-margin>
+                <h2>Flickr API returned no images</h2>
+            </div>
+            <div layout="column" layout-margin>
+                <md-button class="md-primary md-raised" href="/home">Refresh</md-button></div>
+        </div>
+    </div>        `
+    </div>
+    <div layout="row" layout-margin flex>
+        <md-button class="md-primary md-raised" id="prev" ng-click="prev()"><i class="material-icons">skip_previous</i></md-button>
+        <md-button class="md-primary md-raised" id="stop" ng-click="toggleCarousel()"><i class="material-icons" id="pause">{{play}}</i></md-button>
+        <md-button class="md-primary md-raised" id="next" ng-click="next()"><i class="material-icons">skip_next</i></md-button>
+    </div>
+</section>
+
