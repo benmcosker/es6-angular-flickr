@@ -1,5 +1,5 @@
-# an es6-angular adaption of a Flickr carousel using angularjs-webpack-seed (seed-webapp-1.0)
-Adaption of the AngularJS and Webpack Seed Project for The Greenhouse that retools a basic es5 Javascript app and moves it into ES6.  For reference the 
+# Flickr carousel using angularjs-webpack-seed (seed-webapp-1.0)
+Adaption of the AngularJS and Webpack Seed Project for The Greenhouse Javascript app.  For reference the
 Greenhouse project lives at:
 https://github.com/thegreenhouseio/angularjs-webpack-seed
 
@@ -15,9 +15,6 @@ The following tools are used in the application
 [Yarn]: https://yarnpkg.com/en/
 [AngularJS]: https://angularjs.io/
 [Webpack]: https://webpack.github.io/
-
-## Links
-* Repository (Github)- https://github.com/benmcosker/vanillajs-exercise
 
 ## Project Setup
 **Note**: It is recommended that a Javascript based IDE is used, like [Webstorm][],
@@ -104,7 +101,7 @@ $ yarn run test:unit
 ```
 
 ### Continuous Integration / Delivery
-For CI / CD, the production task is combined with the testing task with whatever other relevant post task is need for 
+For CI / CD, the production task is combined with the testing task with whatever other relevant post task is need for
 that specific job's responsibility
 
 ```bash
